@@ -28,8 +28,8 @@ license boot module c1900 technology-package securityk9
 3.Permit protocols required for IPSec VPN
 
 
-access-list 120 permit ip host 192.168.10.0 0.0.0.255 host 192.168.20.0 0.0.0.255 
-access-list 120 permit ip host 192.168.20.0 0.0.0.255 host 192.168.10.0 0.0.0.255 
+access-list 120 permit ip 192.168.10.0 0.0.0.255  192.168.20.0 0.0.0.255 
+access-list 120 permit ip 192.168.20.0 0.0.0.255 192.168.10.0 0.0.0.255 
 
 4. Create ISAKMP (IKE) policy to establish the phase 1 tunnel
 Crypto isakmp policy 50
