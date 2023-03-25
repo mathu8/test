@@ -1,5 +1,5 @@
 1. Starting configurations for R1, ISP, and R3. Paste to global config mode :
-
+do this
 hostname R1
 interface g0/1
 ip address 192.168.1.1 255.255.255.0
